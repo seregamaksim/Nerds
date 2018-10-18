@@ -69,6 +69,18 @@ a {
 .site-navigation li {
     margin-right: 55px;
 }
+.navigation-active {
+    position: relative;
+}
+.navigation-active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-color: #fb565a;
+}
 .user-navigation {
     display: flex;
     max-width: 120px;
@@ -528,6 +540,15 @@ main .container {
     height: 46px;
     border: 2px solid #d7dcde;
     padding-left: 14px; 
+    border-radius: 3px;
+}
+.write-us input:hover,
+.write-us textarea:hover {
+    border-color: #b4b9bb;
+}
+.write-us input:focus,
+.write-us textarea:focus {
+    border-color: #000;
 }
 .write-us p {
     font-size: 16px;
@@ -605,4 +626,14 @@ main .container {
 }
 .modal-close::after {
     transform: rotate(-45deg);
+}
+.modal-close:hover::before,
+.modal-close:hover::after,
+.modal-close:focus::before,
+.modal-close:focus::after {
+    background-color: #fb565a;
+}
+.modal-close:active::before,
+.modal-close:active::after {
+    background-color: #fff4f4;
 }
