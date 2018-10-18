@@ -339,14 +339,16 @@ a {
     background-image: url("img/map.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
 }
 .adress-list {
-    position: relative;
+    position: absolute;
     top: 55px;
-    left: 30px;
+    left: 140px;
     width: 320px;
     height: 310px;
     background-color: #fff;
+    z-index: 10;
 }
 .centr-block {
     position: relative;
