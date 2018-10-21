@@ -526,24 +526,21 @@ a.toggle-item.next:active {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.adress-list {
+ .adress-list {
     position: relative;
     top: 55px;
     left: 30px;
-    width: 320px;
-    height: 310px;
+    width: 220px;
+    padding: 46px 50px;
     background-color: #fff;
+    
 }
-.centr-block {
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
-.adress-list h3 {
+ .adress-list h3 {
     font-size: 18px;
     line-height: 30px;
     font-weight: bold;
     text-transform: uppercase;
+    margin: 0;
 }
 .adress-list p {
     color: #868686;
@@ -553,7 +550,7 @@ a.toggle-item.next:active {
     line-height: 18px;
     text-transform: uppercase;
     background-color: #fb565a;
-    border: none;
+    border: none; 
     border-radius: 3px;
     color: #fff;
     width: 220px;
