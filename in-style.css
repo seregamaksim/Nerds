@@ -524,14 +524,16 @@ a.toggle-item.next:active {
     background-image: url("img/map.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    position: relative;
 }
  .adress-list {
-    position: relative;
+    position: absolute;
     top: 55px;
-    left: 30px;
+    left: 140px;
     width: 220px;
     padding: 46px 50px;
     background-color: #fff;
+    z-index: 23;
 }
  .adress-list h3 {
     font-size: 18px;
